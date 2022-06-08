@@ -105,7 +105,7 @@ public class DifferentBrowserSettings extends TestBase{
 			if(item.getAttribute("innerText").equalsIgnoreCase("hello google"))
 			{
 				item.click();
-				log("Able to navigate to new page");
+				log("Yes to navigate to new page");
 			}
 		}
 		
