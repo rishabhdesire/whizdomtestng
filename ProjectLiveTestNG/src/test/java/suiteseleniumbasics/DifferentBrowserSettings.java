@@ -103,8 +103,10 @@ public class DifferentBrowserSettings extends TestBase{
 			String act = item.getAttribute("innerText");
 			System.out.println(act);
 			if(item.getAttribute("innerText").equalsIgnoreCase("hello google"))
+			{
 				item.click();
 				log("Able to navigate to new page");
+			}
 		}
 		
 		
