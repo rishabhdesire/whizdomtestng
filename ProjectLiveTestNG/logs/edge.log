@@ -1,0 +1,146 @@
+[1654200554.551][INFO]: Starting MSEdgeDriver 101.0.1210.47 (f5323bd54bb60f77072603850ed368ae23c34251) on port 52884
+[1654200554.551][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+[1654200556.906][INFO]: [d29fb946c1e12f087d414424b095d5bd] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "MicrosoftEdge",
+         "ms:edgeOptions": {
+            "args": [ "--disable-notifications", "--start-maximized", "ignore-certificate-errors" ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "MicrosoftEdge",
+      "ms:edgeOptions": {
+         "args": [ "--disable-notifications", "--start-maximized", "ignore-certificate-errors" ],
+         "extensions": [  ]
+      }
+   }
+}
+[1654200556.910][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1654200556.911][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1654200556.916][INFO]: Launching msedge: "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\risha\AppData\Local\Temp\scoped_dir10108_481699918" data:,
+[1654200559.196][WARNING]: This version of MSEdgeDriver has not been tested with MSEdge version 102.
+[1654200559.261][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1654200560.075][INFO]: [d29fb946c1e12f087d414424b095d5bd] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "msedge",
+      "browserVersion": "102.0.1245.30",
+      "ms:edgeOptions": {
+         "debuggerAddress": "localhost:52083"
+      },
+      "msedge": {
+         "msedgedriverVersion": "101.0.1210.47 (f5323bd54bb60f77072603850ed368ae23c34251)",
+         "userDataDir": "C:\\Users\\risha\\AppData\\Local\\Temp\\scoped_dir10108_481699918"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d29fb946c1e12f087d414424b095d5bd"
+}
+[1654200562.904][INFO]: [d29fb946c1e12f087d414424b095d5bd] COMMAND SetTimeouts {
+   "implicit": 20000
+}
+[1654200562.904][INFO]: [d29fb946c1e12f087d414424b095d5bd] RESPONSE SetTimeouts
+[1654200562.920][INFO]: [d29fb946c1e12f087d414424b095d5bd] COMMAND GetTitle {
+
+}
+[1654200562.920][INFO]: Waiting for pending navigations...
+[1654200566.161][INFO]: Done waiting for pending navigations. Status: ok
+[1654200566.166][INFO]: Waiting for pending navigations...
+[1654200566.168][INFO]: Done waiting for pending navigations. Status: ok
+[1654200566.168][INFO]: [d29fb946c1e12f087d414424b095d5bd] RESPONSE GetTitle ""
+[1654200566.173][INFO]: [d29fb946c1e12f087d414424b095d5bd] COMMAND Navigate {
+   "url": "https://expired.badssl.com/"
+}
+[1654200566.173][INFO]: Waiting for pending navigations...
+[1654200566.174][INFO]: Done waiting for pending navigations. Status: ok
+[1654200567.441][INFO]: Waiting for pending navigations...
+[1654200567.538][INFO]: Done waiting for pending navigations. Status: ok
+[1654200567.539][INFO]: [d29fb946c1e12f087d414424b095d5bd] RESPONSE Navigate
+[1654200567.550][INFO]: [d29fb946c1e12f087d414424b095d5bd] COMMAND GetTitle {
+
+}
+[1654200567.551][INFO]: Waiting for pending navigations...
+[1654200567.552][INFO]: Done waiting for pending navigations. Status: ok
+[1654200567.556][INFO]: Waiting for pending navigations...
+[1654200567.557][INFO]: Done waiting for pending navigations. Status: ok
+[1654200567.557][INFO]: [d29fb946c1e12f087d414424b095d5bd] RESPONSE GetTitle "expired.badssl.com"

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suiteseleniumbasics]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="DifferentBrowser(failed)" verbose="0">
+    <classes>
+      <class name="suiteseleniumbasics.DifferentBrowserSettings">
+        <methods>
+          <include name="quit"/>
+          <include name="TC2"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- suiteseleniumbasics.DifferentBrowserSettings -->
+    </classes>
+  </test> <!-- DifferentBrowser(failed) -->
+</suite> <!-- Failed suite [suiteseleniumbasics] -->

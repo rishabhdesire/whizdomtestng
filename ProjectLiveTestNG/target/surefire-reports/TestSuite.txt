@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 45.728 s <<< FAILURE! - in TestSuite
+Login(suitea.TestA)  Time elapsed: 2.088 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	On Chrome Login is failing
+	at suitea.TestA.Login(TestA.java:19)
+
+testBB(suiteb.TestBB)  Time elapsed: 2.017 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Soft Assert: Values are not equal,
+	Soft Assert: Other Values are not equal,
+	Hard Assert: Other Values are not equal
+	at suiteb.TestBB.testBB(TestBB.java:21)
+
+testBB(suiteb.TestBB)  Time elapsed: 1.976 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Soft Assert: Values are not equal,
+	Soft Assert: Other Values are not equal,
+	Hard Assert: Other Values are not equal
+	at suiteb.TestBB.testBB(TestBB.java:21)
+
+TC2(suiteseleniumbasics.DifferentBrowserSettings)  Time elapsed: 33.342 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//li[@role='presentation'][3]/div/div[2]/div[1]/span"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-0BOD3T4', ip: '10.252.0.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8068d0e1ed42388be94337cefb871022, findElement {using=xpath, value=//li[@role='presentation'][3]/div/div[2]/div[1]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\risha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63439/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8068d0e1ed42388be94337cefb871022
+	at suiteseleniumbasics.DifferentBrowserSettings.TC2(DifferentBrowserSettings.java:102)
+

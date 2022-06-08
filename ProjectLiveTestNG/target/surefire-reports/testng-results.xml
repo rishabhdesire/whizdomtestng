@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="6" failed="4" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-08T23:41:26 IST" name="Suite B" finished-at="2022-06-08T23:41:36 IST" duration-ms="10553">
+    <groups>
+      <group name="browsergroup1">
+        <method signature="TestB.testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@5136d012]" name="testB" class="suiteb.TestB"/>
+      </group> <!-- browsergroup1 -->
+      <group name="browsergroup2">
+        <method signature="TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@355ce81c]" name="testBB" class="suiteb.TestBB"/>
+      </group> <!-- browsergroup2 -->
+      <group name="regression">
+        <method signature="TestB.testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@5136d012]" name="testB" class="suiteb.TestB"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@355ce81c]" name="testBB" class="suiteb.TestBB"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-06-08T23:41:26 IST" name="TestB" finished-at="2022-06-08T23:41:32 IST" duration-ms="6375">
+      <class name="suiteb.TestB">
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteb.TestB@5136d012]" started-at="2022-06-08T23:41:27 IST" name="init" finished-at="2022-06-08T23:41:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@bd4dc25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestB.testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@5136d012] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@5136d012]" started-at="2022-06-08T23:41:27 IST" name="testB" data-provider="dataSuiteB" finished-at="2022-06-08T23:41:29 IST" duration-ms="2055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rowcol_00_TestB_and_BB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rowcol_01_TestB_and_BB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteb.TestB@5136d012]" started-at="2022-06-08T23:41:29 IST" name="quit" finished-at="2022-06-08T23:41:30 IST" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteb.TestB@5136d012]" started-at="2022-06-08T23:41:30 IST" name="init" finished-at="2022-06-08T23:41:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@bd4dc25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestB.testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@5136d012] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestB@5136d012]" started-at="2022-06-08T23:41:30 IST" name="testB" data-provider="dataSuiteB" finished-at="2022-06-08T23:41:32 IST" duration-ms="2004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rowcol_10_TestB_and_BB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rowcol_11_TestB_and_BB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteb.TestB@5136d012]" started-at="2022-06-08T23:41:32 IST" name="quit" finished-at="2022-06-08T23:41:32 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteb.TestB -->
+    </test> <!-- TestB -->
+    <test started-at="2022-06-08T23:41:32 IST" name="TestBB" finished-at="2022-06-08T23:41:36 IST" duration-ms="4144">
+      <class name="suiteb.TestBB">
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteb.TestBB@355ce81c]" started-at="2022-06-08T23:41:32 IST" name="init" finished-at="2022-06-08T23:41:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bf9ce3e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@355ce81c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@355ce81c]" started-at="2022-06-08T23:41:32 IST" name="testBB" data-provider="dataSuiteB" finished-at="2022-06-08T23:41:34 IST" duration-ms="2015" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rowcol_00_TestB_and_BB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rowcol_01_TestB_and_BB]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Soft Assert: Values are not equal,
+Soft Assert: Other Values are not equal,
+Hard Assert: Other Values are not equal]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Soft Assert: Values are not equal,
+Soft Assert: Other Values are not equal,
+Hard Assert: Other Values are not equal
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testbase.TestBase.FailAndStop(TestBase.java:99)
+at suiteb.TestBB.testBB(TestBB.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBB -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteb.TestBB@355ce81c]" started-at="2022-06-08T23:41:34 IST" name="quit" finished-at="2022-06-08T23:41:34 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteb.TestBB@355ce81c]" started-at="2022-06-08T23:41:34 IST" name="init" finished-at="2022-06-08T23:41:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3bf9ce3e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestBB.testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@355ce81c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testBB(java.lang.String, java.lang.String)[pri:0, instance:suiteb.TestBB@355ce81c]" started-at="2022-06-08T23:41:34 IST" name="testBB" data-provider="dataSuiteB" finished-at="2022-06-08T23:41:36 IST" duration-ms="2003" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rowcol_10_TestB_and_BB]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rowcol_11_TestB_and_BB]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Soft Assert: Values are not equal,
+Soft Assert: Other Values are not equal,
+Hard Assert: Other Values are not equal]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Soft Assert: Values are not equal,
+Soft Assert: Other Values are not equal,
+Hard Assert: Other Values are not equal
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at testbase.TestBase.FailAndStop(TestBase.java:99)
+at suiteb.TestBB.testBB(TestBB.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBB -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteb.TestBB@355ce81c]" started-at="2022-06-08T23:41:36 IST" name="quit" finished-at="2022-06-08T23:41:36 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteb.TestBB -->
+    </test> <!-- TestBB -->
+  </suite> <!-- Suite B -->
+  <suite started-at="2022-06-08T23:41:26 IST" name="Suite C" finished-at="2022-06-08T23:41:27 IST" duration-ms="1667">
+    <groups>
+      <group name="browsergroup1">
+        <method signature="TestCC.testCC(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@770d3326]" name="testCC" class="suitec.TestCC"/>
+      </group> <!-- browsergroup1 -->
+      <group name="browsergroup2">
+        <method signature="TestC.testC(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@6a6afff2]" name="testC" class="suitec.TestC"/>
+      </group> <!-- browsergroup2 -->
+      <group name="regression">
+        <method signature="TestCC.testCC(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@770d3326]" name="testCC" class="suitec.TestCC"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestC.testC(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@6a6afff2]" name="testC" class="suitec.TestC"/>
+        <method signature="TestCC.testCC(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@770d3326]" name="testCC" class="suitec.TestCC"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-06-08T23:41:26 IST" name="TestC" finished-at="2022-06-08T23:41:27 IST" duration-ms="1474">
+      <class name="suitec.TestC">
+        <test-method signature="testC(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitec.TestC@6a6afff2]" started-at="2022-06-08T23:41:27 IST" name="testC" data-provider="dataSuiteC" finished-at="2022-06-08T23:41:27 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:820)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at dataprovider.TestDataProvider.dataSuiteC(TestDataProvider.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testC -->
+      </class> <!-- suitec.TestC -->
+    </test> <!-- TestC -->
+    <test started-at="2022-06-08T23:41:27 IST" name="TestCC" finished-at="2022-06-08T23:41:27 IST" duration-ms="2">
+      <class name="suitec.TestCC">
+        <test-method signature="testCC(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitec.TestCC@770d3326]" started-at="2022-06-08T23:41:27 IST" name="testCC" data-provider="dataSuiteC" finished-at="2022-06-08T23:41:27 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:820)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:762)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:60)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:39)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:771)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException
+at dataprovider.TestDataProvider.dataSuiteC(TestDataProvider.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 21 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCC -->
+      </class> <!-- suitec.TestCC -->
+    </test> <!-- TestCC -->
+  </suite> <!-- Suite C -->
+  <suite started-at="2022-06-08T23:41:26 IST" name="Suite A" finished-at="2022-06-08T23:41:38 IST" duration-ms="12614">
+    <groups>
+      <group name="browsergroup1">
+        <method signature="TestA.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" name="Login" class="suitea.TestA"/>
+        <method signature="TestA.Purchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" name="Purchase" class="suitea.TestA"/>
+      </group> <!-- browsergroup1 -->
+      <group name="browsergroup2">
+        <method signature="TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@524d6d96]" name="testAA" class="suitea.TestAA"/>
+      </group> <!-- browsergroup2 -->
+      <group name="Purchase">
+        <method signature="TestA.Purchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" name="Purchase" class="suitea.TestA"/>
+      </group> <!-- Purchase -->
+      <group name="regression">
+        <method signature="TestA.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" name="Login" class="suitea.TestA"/>
+        <method signature="TestA.Purchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" name="Purchase" class="suitea.TestA"/>
+        <method signature="TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@524d6d96]" name="testAA" class="suitea.TestAA"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestA.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" name="Login" class="suitea.TestA"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestA.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" name="Login" class="suitea.TestA"/>
+        <method signature="TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@524d6d96]" name="testAA" class="suitea.TestAA"/>
+      </group> <!-- sanity -->
+      <group name="Login">
+        <method signature="TestA.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" name="Login" class="suitea.TestA"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2022-06-08T23:41:26 IST" name="TestA" finished-at="2022-06-08T23:41:34 IST" duration-ms="8445">
+      <class name="suitea.TestA">
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:27 IST" name="init" finished-at="2022-06-08T23:41:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@383bfa16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:27 IST" name="Login" data-provider="dataSuiteA" finished-at="2022-06-08T23:41:29 IST" duration-ms="2086" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pass@1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+On Chrome Login is failing]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+On Chrome Login is failing
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at suitea.TestA.Login(TestA.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:29 IST" name="quit" finished-at="2022-06-08T23:41:30 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:30 IST" name="init" finished-at="2022-06-08T23:41:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@383bfa16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:30 IST" name="Login" data-provider="dataSuiteA" finished-at="2022-06-08T23:41:32 IST" duration-ms="2018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pass@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:32 IST" name="quit" finished-at="2022-06-08T23:41:32 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:32 IST" name="init" finished-at="2022-06-08T23:41:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@383bfa16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestA.Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:32 IST" name="Login" data-provider="dataSuiteA" finished-at="2022-06-08T23:41:34 IST" duration-ms="2002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12/04/2015]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:34 IST" name="quit" finished-at="2022-06-08T23:41:34 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="Purchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b]" started-at="2022-06-08T23:41:34 IST" name="Purchase" data-provider="dataSuiteA" depends-on-groups="Login" finished-at="2022-06-08T23:41:34 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestA.Purchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b] depends on not successfully finished methods in group "Login"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestA.Purchase(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:suitea.TestA@757acd7b] depends on not successfully finished methods in group "Login"
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Purchase -->
+      </class> <!-- suitea.TestA -->
+    </test> <!-- TestA -->
+    <test started-at="2022-06-08T23:41:34 IST" name="TestAA" finished-at="2022-06-08T23:41:38 IST" duration-ms="4114">
+      <class name="suitea.TestAA">
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitea.TestAA@524d6d96]" started-at="2022-06-08T23:41:34 IST" name="init" finished-at="2022-06-08T23:41:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@32ee6fee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@524d6d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@524d6d96]" started-at="2022-06-08T23:41:34 IST" name="testAA" data-provider="dataSuiteA" finished-at="2022-06-08T23:41:36 IST" duration-ms="2010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rishabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAA -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suitea.TestAA@524d6d96]" started-at="2022-06-08T23:41:36 IST" name="quit" finished-at="2022-06-08T23:41:36 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitea.TestAA@524d6d96]" started-at="2022-06-08T23:41:36 IST" name="init" finished-at="2022-06-08T23:41:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@32ee6fee]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TestAA.testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@524d6d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="testAA(java.lang.String, java.lang.String)[pri:0, instance:suitea.TestAA@524d6d96]" started-at="2022-06-08T23:41:36 IST" name="testAA" data-provider="dataSuiteA" finished-at="2022-06-08T23:41:38 IST" duration-ms="2016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shanu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gurugram]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAA -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suitea.TestAA@524d6d96]" started-at="2022-06-08T23:41:38 IST" name="quit" finished-at="2022-06-08T23:41:38 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suitea.TestAA -->
+    </test> <!-- TestAA -->
+  </suite> <!-- Suite A -->
+  <suite started-at="2022-06-08T23:41:26 IST" name="suiteseleniumbasics" finished-at="2022-06-08T23:42:09 IST" duration-ms="43946">
+    <groups>
+      <group name="smoke">
+        <method signature="DifferentBrowserSettings.TC2()[pri:0, instance:suiteseleniumbasics.DifferentBrowserSettings@2e55dd0c]" name="TC2" class="suiteseleniumbasics.DifferentBrowserSettings"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-06-08T23:41:26 IST" name="DifferentBrowser" finished-at="2022-06-08T23:42:09 IST" duration-ms="43946">
+      <class name="suiteseleniumbasics.DifferentBrowserSettings">
+        <test-method is-config="true" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suiteseleniumbasics.DifferentBrowserSettings@2e55dd0c]" started-at="2022-06-08T23:41:26 IST" name="init" finished-at="2022-06-08T23:41:26 IST" duration-ms="809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3232a28a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DifferentBrowserSettings.TC2()[pri:0, instance:suiteseleniumbasics.DifferentBrowserSettings@2e55dd0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC2()[pri:0, instance:suiteseleniumbasics.DifferentBrowserSettings@2e55dd0c]" started-at="2022-06-08T23:41:26 IST" name="TC2" finished-at="2022-06-08T23:42:09 IST" duration-ms="43025" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//li[@role='presentation'][3]/div/div[2]/div[1]/span"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-0BOD3T4', ip: '10.252.0.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8068d0e1ed42388be94337cefb871022, findElement {using=xpath, value=//li[@role='presentation'][3]/div/div[2]/div[1]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\risha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63439/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8068d0e1ed42388be94337cefb871022]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//li[@role='presentation'][3]/div/div[2]/div[1]/span"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-0BOD3T4', ip: '10.252.0.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8068d0e1ed42388be94337cefb871022, findElement {using=xpath, value=//li[@role='presentation'][3]/div/div[2]/div[1]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\risha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63439}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63439/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8068d0e1ed42388be94337cefb871022
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+at suiteseleniumbasics.DifferentBrowserSettings.TC2(DifferentBrowserSettings.java:102)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:suiteseleniumbasics.DifferentBrowserSettings@2e55dd0c]" started-at="2022-06-08T23:42:09 IST" name="quit" finished-at="2022-06-08T23:42:09 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suiteseleniumbasics.DifferentBrowserSettings -->
+    </test> <!-- DifferentBrowser -->
+  </suite> <!-- suiteseleniumbasics -->
+</testng-results>
